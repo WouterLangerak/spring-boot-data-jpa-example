@@ -10,7 +10,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  */
 @EnableJpaRepositories("nl.wjl.template.springbootjpa.*")
 @EntityScan("nl.wjl.template.springbootjpa.*")
-//@Configuration
 @SpringBootApplication
 public class Application {
 
